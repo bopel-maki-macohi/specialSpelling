@@ -20,7 +20,7 @@ enum abstract MapPosition(Int) from Int to Int
 
 	var WEST_CAFE = 13;
 	var CENTER_CAFE = 14;
-	var CENTER_CAFE_CLASSROOM = 16;
+	var CENTER_CAFE_CLASSROOM = 15;
 	var EAST_CAFE = 16;
 
 	var EAST_BOTTOM_CORNER = 17;
