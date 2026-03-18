@@ -1,3 +1,4 @@
+import flixel.FlxG;
 import flixel.FlxState;
 
 class InitState extends FlxState
@@ -5,6 +6,8 @@ class InitState extends FlxState
 	override public function create()
 	{
 		super.create();
+
+		FlxG.switchState(() -> new MapState());
 	}
 
 	override public function update(elapsed:Float)
