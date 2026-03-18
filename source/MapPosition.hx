@@ -10,7 +10,7 @@ enum abstract MapPosition(Int) from Int to Int
 	var SOUTH_TOP_HALL_TOPWEST = 6;
 
 	var SOUTH_TOP_HALL_CENTER = 7;
-	
+
 	var SOUTH_TOP_HALL_TOPEAST = 8;
 	var SOUTH_TOP_HALL_BOTTOMEAST = 9;
 
@@ -28,4 +28,7 @@ enum abstract MapPosition(Int) from Int to Int
 
 	var EAST_TOP_CORNER = 19;
 	var EAST_TOP_CORNER_CLASSROOM = 20;
+
+	public function int():Int
+		return this;
 }
